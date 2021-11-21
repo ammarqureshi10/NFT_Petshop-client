@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
           </IconButton>
           <Typography variant="h2" className={classes.title} style={{color: "blanchedalmond"}}>
-            AQ Pet Shop
+            AQ Nft Pet Shop
           </Typography><br/>
   <Button color="inherit">{account0 ? `Account: ${(account0).substring(0, 7).concat("...",(account0).substring(38,42))}` : "loading..."}</Button>
         </Toolbar>
